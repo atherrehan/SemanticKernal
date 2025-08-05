@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Kernel Core Engine", "2.K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.BuilderPatternDemo", "SemanticKernel.BuilderPatternDemo\SemanticKernel.BuilderPatternDemo.csproj", "{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.SKKernel", "SemanticKernel.SKKernel\SemanticKernel.SKKernel.csproj", "{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{F2256C4F-BB70-419A-A364-652433ED2CF3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{410CF355-662F-4BC9-B26D-D30732924D44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47} = {410CF355-662F-4BC9-B26D-D30732924D44}
+		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE} = {410CF355-662F-4BC9-B26D-D30732924D44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BD48751-D9A4-4C33-9BED-E30936EE9F0E}

@@ -33,3 +33,11 @@
 6. Fill in the required details like Subscription, Resource Group, Region, and Name.
 
 7. Copy and do the same as above, save it in Environment variable, both Region and Key.
+
+8. Goto Overview section on portal, click on Explore Azure AI Foundry Portal
+
+9. Goto Deployments, select Deploy model 
+
+10. All available models will be shown and select relevant "gpt-40-mini" model and confirm.
+
+11. You may customize like token per minutest etc and finally click deploy.
