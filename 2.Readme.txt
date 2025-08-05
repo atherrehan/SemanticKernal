@@ -1,0 +1,35 @@
+1. Builder Pattern Demo code helps you:-
+   Understand  how Builder Patterns works and how Semantic Kernal uses it to create a Kernel instance.
+
+   OpenAI key
+
+1. To create OpenAi key for Open Ai, goto path.
+   https://platform.openai.com/docs/overview
+
+2. OpenAI account is must.
+
+3. Certain balance is required to use OpenAI services through API.
+
+4. Goto Dashboard, and Select Keys, create your key and copy it.
+
+5. You can use your key in code too but we are saving it in Envrionment variable for security reasons.
+
+6. You can alwasy manage your keys on API from below link.
+   https://platform.openai.com/settings/organization/api-keys
+
+
+   AzureAI Key
+1. Azure account is must.
+
+2. Goto Azure Portal
+   https://portal.azure.com/
+
+3. Create a new resource
+
+4. In search bar, enter Azure OpenAI
+
+5. Select Azure OpenAI and click on Create
+
+6. Fill in the required details like Subscription, Resource Group, Region, and Name.
+
+7. Copy and do the same as above, save it in Environment variable, both Region and Key.

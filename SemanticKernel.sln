@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Installation", "SemanticKernel.Installation\SemanticKernel.Installation.csproj", "{221ACE0E-2AA5-4067-BE2C-A19AF6B13123}"
 EndProject
@@ -9,8 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{02EA681E-C7D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Installation", "1.Installation", "{F2256C4F-BB70-419A-A364-652433ED2CF3}"
 	ProjectSection(SolutionItems) = preProject
-		Readme.txt = Readme.txt
+		1.Readme.txt = 1.Readme.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Kernel Core Engine", "2.Kernel Core Engine", "{410CF355-662F-4BC9-B26D-D30732924D44}"
+	ProjectSection(SolutionItems) = preProject
+		2.Readme.txt = 2.Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.BuilderPatternDemo", "SemanticKernel.BuilderPatternDemo\SemanticKernel.BuilderPatternDemo.csproj", "{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +29,10 @@ Global
 		{221ACE0E-2AA5-4067-BE2C-A19AF6B13123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221ACE0E-2AA5-4067-BE2C-A19AF6B13123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221ACE0E-2AA5-4067-BE2C-A19AF6B13123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{221ACE0E-2AA5-4067-BE2C-A19AF6B13123} = {F2256C4F-BB70-419A-A364-652433ED2CF3}
 		{F2256C4F-BB70-419A-A364-652433ED2CF3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{410CF355-662F-4BC9-B26D-D30732924D44} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D78B84EB-18D2-461D-872D-F2FBF6E5AF47} = {410CF355-662F-4BC9-B26D-D30732924D44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BD48751-D9A4-4C33-9BED-E30936EE9F0E}
