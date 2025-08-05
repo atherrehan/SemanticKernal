@@ -1,3 +1,9 @@
+***Sequence
+SemanticKernel.BuilderPatternDemo
+SemanticKernel.SKKernel
+
+
+
 1. Builder Pattern Demo code helps you:-
    Understand  how Builder Patterns works and how Semantic Kernal uses it to create a Kernel instance.
 
