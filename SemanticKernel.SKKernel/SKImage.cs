@@ -1,5 +1,4 @@
-﻿using Microsoft.SemanticKernel.Connectors.OpenAI;
-using Microsoft.SemanticKernel;
+﻿using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.TextToImage;
 
 namespace SemanticKernel.SKKernel

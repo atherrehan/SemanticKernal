@@ -1,0 +1,4 @@
+1. Install Microsoft.SemanticKernel package from NuGet.
+
+2. Install Spectre.Console 
+

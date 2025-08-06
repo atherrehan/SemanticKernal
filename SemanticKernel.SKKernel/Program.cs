@@ -37,7 +37,7 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 
 #endregion
 
-#region Charts
+#region Chats
 
 //prompt = "What is Semantic Kernel, describe briefly";
 //SKChat chat = new SKChat(modelIdOpenAI, openAIKey ?? "", prompt, "");
@@ -47,7 +47,7 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 //SKChat chat = new SKChat(modelIdOpenAI, azureKey ?? "", prompt, azureRegion);
 ////await chat.AzureAIChat(options);
 ////await chat.AzureAIChatStreaming(options);
-///
+
 #endregion
 
 #region Images
@@ -76,10 +76,10 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 
 #region Audio 2 Text
 
-var path = "D:\\Ather's Workspace\\GitRepo\\atherrehan\\SemanticKernal\\Audio\\b3e40290-065d-411d-86e4-022ae43b0c48.mp3";
-modelIdOpenAI = "whisper-1";
-SKAudioToText text = new SKAudioToText(modelIdOpenAI, openAIKey ?? "", prompt, "");
-await text.OpenAIText(textOptions, path);
+//var path = "D:\\Ather's Workspace\\GitRepo\\atherrehan\\SemanticKernal\\Audio\\b3e40290-065d-411d-86e4-022ae43b0c48.mp3";
+//modelIdOpenAI = "whisper-1";
+//SKAudioToText text = new SKAudioToText(modelIdOpenAI, openAIKey ?? "", prompt, "");
+//await text.OpenAIText(textOptions, path);
 //SKAudioToText text = new SKAudioToText(modelIdOpenAI, azureKey ?? "", prompt, azureRegion ?? "");
 //await text.AzureAIText(audioOptions, path);
 
