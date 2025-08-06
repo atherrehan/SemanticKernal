@@ -16,6 +16,7 @@ namespace SemanticKernel.SKKernel
             _prompt = prompt;
             _region = region;
         }
+
         public async Task OpenAIChat(OpenAIPromptExecutionSettings options)
         {
             Kernel openAIKernel = Kernel.CreateBuilder()
@@ -26,18 +27,8 @@ namespace SemanticKernel.SKKernel
 
             Console.WriteLine(result);
         }
-        public async Task AzureAIChat(OpenAIPromptExecutionSettings options)
-        {
-            Kernel azureKernel = Kernel.CreateBuilder()
-                .AddAzureOpenAIChatCompletion(_model, _region, _key)
-                .Build();
 
-            var result = await azureKernel.InvokePromptAsync(_prompt);
-
-            Console.WriteLine(result);
-
-        }
-        public async Task OpenAIChatStreaming(OpenAIPromptExecutionSettings options)
+        public async Task OpenAIChatStreaming()
         {
             Kernel openAIKernel = Kernel.CreateBuilder()
                 .AddOpenAIChatCompletion(_model, _key)
@@ -53,7 +44,20 @@ namespace SemanticKernel.SKKernel
                 }
             }
         }
-        public async Task AzureAIChatStreaming(OpenAIPromptExecutionSettings options)
+
+        public async Task AzureAIChat()
+        {
+            Kernel azureKernel = Kernel.CreateBuilder()
+                .AddAzureOpenAIChatCompletion(_model, _region, _key)
+                .Build();
+
+            var result = await azureKernel.InvokePromptAsync(_prompt);
+
+            Console.WriteLine(result);
+
+        }
+       
+        public async Task AzureAIChatStreaming()
         {
             Kernel azureKernel = Kernel.CreateBuilder()
                 .AddAzureOpenAIChatCompletion(_model, _region, _key)
