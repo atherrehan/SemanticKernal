@@ -20,7 +20,6 @@ var options = new OpenAIPromptExecutionSettings // Set as many properties you wa
 var prompt = string.Empty; // What whaterver you want LLM to return
 
 #region Charts
-
 //prompt = "What is Semantic Kernel, describe briefly";
 //SKChat chat = new SKChat(modelIdOpenAI, openAIKey ?? "", prompt, "");
 ////await chat.OpenAIChat(options);
@@ -29,20 +28,15 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 //SKChat chat = new SKChat(modelIdOpenAI, openAIKey ?? "", prompt, azureRegion);
 ////await chat.AzureAIChat(options);
 ////await chat.AzureAIChatStreaming(options);
-
 #endregion
 
-
-
 #region Images
-
-prompt = "A futuristic city skyline at sunset with flying cars.";
-SKImage image = new SKImage(modelIdOpenAI, openAIKey ?? "", prompt, "");
-await image.OpenAIImage();
+//prompt = "A futuristic city skyline at sunset with flying cars.";
+//SKImage image = new SKImage(modelIdOpenAI, openAIKey ?? "", prompt, "");
+//await image.OpenAIImage();
 
 //modelIdOpenAI = "dall-e-3";//Deploy base model in Azure
 //SKImage image = new SKImage(modelIdOpenAI, openAIKey ?? "", prompt, azureRegion ?? "");
 //await image.AzureAIImage();
-
 #endregion
 
