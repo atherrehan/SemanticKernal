@@ -1,7 +1,7 @@
-﻿
-
-using Microsoft.SemanticKernel.ChatCompletion;
+﻿using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
+using SemanticKernel.ChatHistoryApp;
+using Spectre.Console;
 #region Declaration
 var openAIKey = Environment.GetEnvironmentVariable("SemanticKernelOpenAIKey", EnvironmentVariableTarget.User);
 
@@ -19,6 +19,16 @@ var options = new OpenAIPromptExecutionSettings   // Set as many properties you 
 
 var prompt = string.Empty; // What whaterver you want LLM to return
 
-ChatHistory history = [];
+ChatHistory history;
+
+#endregion
+
+#region Demo
+
+history = new ChatHistory("You are a helpful assitant");
+
+ChatHistoryApp openAIChatDemo = new ChatHistoryApp(modelIdOpenAI, openAIKey ?? "", prompt, "");
+
+openAIChatDemo.ShowWelcomeMessages();
 
 #endregion
