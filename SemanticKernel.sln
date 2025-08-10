@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.BlogPostsGen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Chat", "4.Chat", "{3E8EB0B8-AE33-48F2-9CE6-DEA5A7E85ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.ChatHistory", "SemanticKernel.ChatHistory\SemanticKernel.ChatHistory.csproj", "{D03D0B0F-B815-4D67-BFBB-36F375A744C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.ChatHistoryDemo", "SemanticKernel.ChatHistory\SemanticKernel.ChatHistoryDemo.csproj", "{D03D0B0F-B815-4D67-BFBB-36F375A744C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

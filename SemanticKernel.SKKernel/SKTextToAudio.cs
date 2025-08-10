@@ -1,5 +1,4 @@
-﻿using Microsoft.SemanticKernel.TextToImage;
-using Microsoft.SemanticKernel;
+﻿using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.TextToAudio;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 
