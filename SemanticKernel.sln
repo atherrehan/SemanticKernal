@@ -26,7 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Blog Post Generation", "3
 		3.Readme.txt = 3.Readme.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKBlogPostsGeneration", "SKBlogPostsGeneration\SKBlogPostsGeneration.csproj", "{ABDFDAEE-738A-42D5-8786-D8DDB65C57B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.BlogPostsGeneration", "SKBlogPostsGeneration\SemanticKernel.BlogPostsGeneration.csproj", "{ABDFDAEE-738A-42D5-8786-D8DDB65C57B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Chat", "4.Chat", "{3E8EB0B8-AE33-48F2-9CE6-DEA5A7E85ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,7 @@ Global
 		{A4A0ECC9-7217-41F6-9BF3-D68C2FC9BDCE} = {410CF355-662F-4BC9-B26D-D30732924D44}
 		{BA1758B9-48FB-473D-A31E-4D4B532E8C4A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{ABDFDAEE-738A-42D5-8786-D8DDB65C57B3} = {BA1758B9-48FB-473D-A31E-4D4B532E8C4A}
+		{3E8EB0B8-AE33-48F2-9CE6-DEA5A7E85ECE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BD48751-D9A4-4C33-9BED-E30936EE9F0E}
