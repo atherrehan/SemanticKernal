@@ -31,4 +31,7 @@ ChatHistoryApp openAIChatDemo = new ChatHistoryApp(modelIdOpenAI, openAIKey ?? "
 
 openAIChatDemo.ShowWelcomeMessages();
 
+await openAIChatDemo.RunChatLoopAsync(history, options);
+
+
 #endregion
