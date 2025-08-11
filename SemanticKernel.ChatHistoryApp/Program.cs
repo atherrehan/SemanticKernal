@@ -1,7 +1,6 @@
 ﻿using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using SemanticKernel.ChatHistoryApp;
-using Spectre.Console;
 #region Declaration
 var openAIKey = Environment.GetEnvironmentVariable("SemanticKernelOpenAIKey", EnvironmentVariableTarget.User);
 

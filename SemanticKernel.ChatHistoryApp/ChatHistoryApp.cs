@@ -2,7 +2,6 @@
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel;
 using Spectre.Console;
-using OpenAI.VectorStores;
 
 namespace SemanticKernel.ChatHistoryApp
 {
