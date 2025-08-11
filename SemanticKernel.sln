@@ -36,6 +36,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.ChatHistoryApp", "5.ChatH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.ChatHistoryApp", "SemanticKernel.ChatHistoryApp\SemanticKernel.ChatHistoryApp.csproj", "{F529CB14-94E8-4901-BC8A-5C8BC5A593D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Plugins", "6.Plugins", "{56418BDA-8767-4896-A39A-DDFB51EF2D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.PluginsDemo", "SemanticKernel.PluginsDemo\SemanticKernel.PluginsDemo.csproj", "{E1A51404-4769-416D-A431-0382B39C7BA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +70,10 @@ Global
 		{F529CB14-94E8-4901-BC8A-5C8BC5A593D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F529CB14-94E8-4901-BC8A-5C8BC5A593D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F529CB14-94E8-4901-BC8A-5C8BC5A593D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A51404-4769-416D-A431-0382B39C7BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A51404-4769-416D-A431-0382B39C7BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A51404-4769-416D-A431-0382B39C7BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A51404-4769-416D-A431-0382B39C7BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,8 @@ Global
 		{D03D0B0F-B815-4D67-BFBB-36F375A744C6} = {3E8EB0B8-AE33-48F2-9CE6-DEA5A7E85ECE}
 		{29A31699-421E-4801-87E4-ABC57B0D1F80} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F529CB14-94E8-4901-BC8A-5C8BC5A593D3} = {29A31699-421E-4801-87E4-ABC57B0D1F80}
+		{56418BDA-8767-4896-A39A-DDFB51EF2D33} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E1A51404-4769-416D-A431-0382B39C7BA8} = {56418BDA-8767-4896-A39A-DDFB51EF2D33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BD48751-D9A4-4C33-9BED-E30936EE9F0E}
