@@ -1,4 +1,5 @@
 ﻿using Microsoft.SemanticKernel.Connectors.OpenAI;
+using SemanticKernel.PluginsDemo;
 
 #region Declaration
 
@@ -18,10 +19,13 @@ var options = new OpenAIPromptExecutionSettings   // Set as many properties you 
 
 var prompt = string.Empty; // What whaterver you want LLM to return
 
-
 #endregion
+
 
 #region Demo
 
 
+
+FunctionDemo demo = new FunctionDemo(modelIdOpenAI, openAIKey??"", "", "");
+await demo.OpenAIChatInitialize(options);
 #endregion

@@ -18,18 +18,35 @@ namespace SemanticKernel.PluginsDemo
             _region = region;
         }
 
-        public async Task OpenAIChatInitialize(OpenAIPromptExecutionSettings settings, ChatHistory history)
+        public async Task OpenAIChatInitialize(OpenAIPromptExecutionSettings settings)
         {
             Kernel openAIKernel = Kernel.CreateBuilder()
                .AddOpenAIChatCompletion(_model, _key)
-               .Build();           
+               .Build();
+
+            KernelFunction timeFunction = KernelFunctionFactory.CreateFromMethod(() =>
+            DateTime.Now.ToShortTimeString(),
+            "get_current_time",
+            "Gets the current time"
+            );
+
+            KernelFunction poemFunction = KernelFunctionFactory.CreateFromPrompt(
+                "Write a poem about Semantic",
+                functionName: "wirte_poem",
+                description: "Writes a poem about Semantic Kernel"
+                );
+
+            var currentTime = await openAIKernel.InvokeAsync(timeFunction);
+            var poem = await openAIKernel.InvokeAsync(poemFunction);
+            Console.WriteLine($"Current Time: {currentTime}");
+            Console.WriteLine($"Poem: {poem}");
         }
 
         public async Task AzureOpenAIChatInitialize(OpenAIPromptExecutionSettings settings, ChatHistory history)
         {
             Kernel openAIKernel = Kernel.CreateBuilder()
                .AddAzureOpenAIChatCompletion(_model, endpoint: _region, apiKey: _key)
-               .Build();            
+               .Build();
         }
     }
 }
