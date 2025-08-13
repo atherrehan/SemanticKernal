@@ -43,7 +43,7 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 
 #region Built-in Plugin
 
-FirstNativeImp nativePlugin = new FirstNativeImp(modelIdOpenAI, openAIKey ?? "", "", "");
+NativeImp nativePlugin = new NativeImp(modelIdOpenAI, openAIKey ?? "", "", "");
 await nativePlugin.OpenAINative(options);
 
 #endregion

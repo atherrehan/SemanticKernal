@@ -4,13 +4,13 @@ using Microsoft.SemanticKernel.Plugins.Core;
 
 namespace SemanticKernel.PluginsDemo.Plugins.FirstNativePlugin
 {
-    public class FirstNativeImp
+    public class NativeImp
     {
         private readonly string _model;
         private readonly string _key;
         private readonly string _prompt;
         private readonly string _region;
-        public FirstNativeImp(string model, string key, string prompt, string region)
+        public NativeImp(string model, string key, string prompt, string region)
         {
             _key = key;
             _model = model;
