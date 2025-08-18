@@ -2,6 +2,8 @@
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.Plugins.Core;
 using SemanticKernel.PluginsDemo.Plugins.FirstNativePlugin;
+using SemanticKernel.PluginsDemo.Plugins.Functions;
+using SemanticKernel.PluginsDemo.Plugins.FunctionsInAction;
 
 
 #region Declaration
@@ -24,7 +26,6 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 
 #endregion
 
-
 #region Demo
 
 //KernelFunctionDemo demo = new KernelFunctionDemo(modelIdOpenAI, openAIKey ?? "", "", "");
@@ -43,7 +44,13 @@ var prompt = string.Empty; // What whaterver you want LLM to return
 
 #region Built-in Plugin
 
-NativeImp nativePlugin = new NativeImp(modelIdOpenAI, openAIKey ?? "", "", "");
-await nativePlugin.OpenAINative(options);
+//NativeImp nativePlugin = new NativeImp(modelIdOpenAI, openAIKey ?? "", "", "");
+//await nativePlugin.OpenAINative(options);
 
 #endregion
+
+#region Functions in action
+FunctionInAction functionInAction = new FunctionInAction(modelIdOpenAI, openAIKey ?? "", "", "");
+await functionInAction.OpenAIFunctionInAction(options);
+#endregion
+
